@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uproar AI - Home</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Arial, sans-serif;
+            background:#0f172a;
+            color:white;
+        }
+
+        nav{
+            background:#111827;
+            padding:20px;
+            display:flex;
+            justify-content:center;
+            gap:25px;
+            flex-wrap:wrap;
+            position:sticky;
+            top:0;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            font-weight:bold;
+            transition:0.3s;
+        }
+
+        nav a:hover{
+            color:#22d3ee;
+        }
+
+        .hero{
+            min-height:90vh;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+            padding:40px 20px;
+            background:
+                linear-gradient(rgba(15,23,42,0.8),
+                rgba(15,23,42,0.9)),
+                url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600&auto=format&fit=crop');
+            background-size:cover;
+            background-position:center;
+        }
+
+        .hero h1{
+            font-size:4rem;
+            margin-bottom:20px;
+            color:#22d3ee;
+            letter-spacing:2px;
+        }
+
+        .hero p{
+            font-size:1.3rem;
+            max-width:700px;
+            color:#d1d5db;
+            margin-bottom:35px;
+            line-height:1.6;
+        }
+
+        .btn{
+            background:#06b6d4;
+            padding:14px 28px;
+            border-radius:10px;
+            text-decoration:none;
+            color:white;
+            font-weight:bold;
+            transition:0.3s;
+            box-shadow:0 4px 15px rgba(6,182,212,0.3);
+        }
+
+        .btn:hover{
+            background:#0891b2;
+            transform:translateY(-2px);
+        }
+
+        @media(max-width:768px){
+
+            .hero h1{
+                font-size:2.8rem;
+            }
+
+            .hero p{
+                font-size:1.1rem;
+            }
+        }
+.logo-footer{
+    margin-top:60px;
+    padding:30px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    background:#0b1220;
+    border-top:1px solid #1f2937;
+}
+
+.logo-footer img{
+    width:80px;
+    height:auto;
+    opacity:0.9;
+    transition:0.3s;
+}
+
+.logo-footer img:hover{
+    opacity:1;
+    transform:scale(1.05);
+}
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <a href="homeuproar.html">Home</a>
+    <a href="aboutuproar.html">About</a>
+    <a href="servicesuproar.html">Services</a>
+    <a href="contactuproar.html">Contact</a>
+    <a href="SoMeuproar.html">SoMe</a>
+</nav>
+
+<section class="hero">
+
+    <h1>UPROAR AI</h1>
+
+    <p>
+        Modern AI solutions for future businesses.
+        We build smart websites, AI systems,
+        automation tools, and digital branding
+        for the next generation.
+    </p>
+
+    <a href="servicesuproar.html" class="btn">
+        Explore Our Services
+    </a>
+
+</section>
+<footer class="logo-footer">
+    <img src="ailogo.png.png" alt="Logo 1">
+    <img src="image.png" alt="Logo 2">
+</footer>
+</body>
+</html>

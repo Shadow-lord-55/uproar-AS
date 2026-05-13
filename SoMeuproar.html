@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media | Uproar AI</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Arial, sans-serif;
+            background:#0f172a;
+            color:white;
+        }
+
+        nav{
+            background:#111827;
+            padding:20px;
+            display:flex;
+            justify-content:center;
+            gap:25px;
+            flex-wrap:wrap;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            font-weight:bold;
+            transition:0.3s;
+        }
+
+        nav a:hover{
+            color:#22d3ee;
+        }
+
+        .container{
+            padding:100px 20px;
+            text-align:center;
+        }
+
+        h1{
+            font-size:2.6rem;
+            margin-bottom:15px;
+            color:#22d3ee;
+        }
+
+        p{
+            color:#d1d5db;
+            margin-bottom:40px;
+        }
+
+        .social-grid{
+            display:flex;
+            justify-content:center;
+            flex-wrap:wrap;
+            gap:20px;
+        }
+
+        .btn{
+            display:inline-block;
+            background:#7c3aed;
+            color:white;
+            padding:14px 24px;
+            border-radius:10px;
+            text-decoration:none;
+            font-weight:bold;
+            transition:0.3s;
+            min-width:140px;
+            box-shadow:0 4px 15px rgba(124,58,237,0.3);
+        }
+
+        .btn:hover{
+            transform:translateY(-4px);
+            background:#6d28d9;
+        }
+
+        .btn.instagram{ background:#e1306c; }
+        .btn.tiktok{ background:#111827; border:1px solid #374151; }
+        .btn.linkedin{ background:#0a66c2; }
+
+        @media(max-width:600px){
+            h1{
+                font-size:2.2rem;
+            }
+        }
+        .logo-footer{
+    margin-top:60px;
+    padding:30px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    background:#0b1220;
+    border-top:1px solid #1f2937;
+}
+
+.logo-footer img{
+    width:80px;
+    height:auto;
+    opacity:0.9;
+    transition:0.3s;
+}
+
+.logo-footer img:hover{
+    opacity:1;
+    transform:scale(1.05);
+}
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <a href="homeuproar.html">Home</a>
+    <a href="aboutuproar.html">About</a>
+    <a href="servicesuproar.html">Services</a>
+    <a href="contactuproar.html">Contact</a>
+    <a href="SoMeuproar.html">SoMe</a>
+</nav>
+
+<section class="container">
+
+    <h1>Follow Uproar AI</h1>
+    <p>Stay updated with AI insights, tech trends, and company updates.</p>
+
+    <div class="social-grid">
+
+        <a href="#" class="btn instagram">Instagram</a>
+        <a href="#" class="btn tiktok">TikTok</a>
+        <a href="#" class="btn linkedin">LinkedIn</a>
+
+    </div>
+
+</section>
+<footer class="logo-footer">
+    <img src="ailogo.png.png" alt="Logo 1">
+    <img src="image.png" alt="Logo 2">
+</footer>
+</body>
+</html>

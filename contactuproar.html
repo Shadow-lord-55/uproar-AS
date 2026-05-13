@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Uproar AI</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Arial, sans-serif;
+            background:#111827;
+            color:white;
+        }
+
+        nav{
+            background:#0f172a;
+            padding:20px;
+            display:flex;
+            justify-content:center;
+            gap:25px;
+            flex-wrap:wrap;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            font-weight:bold;
+            transition:0.3s;
+        }
+
+        nav a:hover{
+            color:#22d3ee;
+        }
+
+        .container{
+            max-width:900px;
+            margin:0 auto;
+            padding:80px 20px;
+            text-align:center;
+        }
+
+        h1{
+            font-size:2.6rem;
+            margin-bottom:20px;
+            color:#22d3ee;
+        }
+
+        p{
+            color:#d1d5db;
+            margin-bottom:40px;
+        }
+
+        .contact-grid{
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            gap:40px;
+            text-align:left;
+        }
+
+        .info{
+            background:#1f2937;
+            padding:25px;
+            border-radius:12px;
+        }
+
+        .info h2{
+            margin-bottom:15px;
+            color:#38bdf8;
+        }
+
+        .info p{
+            margin-bottom:10px;
+        }
+
+        form{
+            background:#1f2937;
+            padding:25px;
+            border-radius:12px;
+        }
+
+        input, textarea{
+            width:100%;
+            padding:12px;
+            margin-bottom:15px;
+            border:none;
+            border-radius:8px;
+            outline:none;
+            background:#111827;
+            color:white;
+        }
+
+        textarea{
+            min-height:120px;
+            resize:none;
+        }
+
+        button{
+            width:100%;
+            padding:12px;
+            border:none;
+            border-radius:8px;
+            background:#06b6d4;
+            color:white;
+            font-weight:bold;
+            cursor:pointer;
+            transition:0.3s;
+        }
+
+        button:hover{
+            background:#0891b2;
+        }
+
+        @media(max-width:768px){
+            .contact-grid{
+                grid-template-columns:1fr;
+            }
+        }
+.logo-footer{
+    margin-top:60px;
+    padding:30px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    background:#0b1220;
+    border-top:1px solid #1f2937;
+}
+
+.logo-footer img{
+    width:80px;
+    height:auto;
+    opacity:0.9;
+    transition:0.3s;
+}
+
+.logo-footer img:hover{
+    opacity:1;
+    transform:scale(1.05);
+}
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <a href="homeuproar.html">Home</a>
+    <a href="aboutuproar.html">About</a>
+    <a href="servicesuproar.html">Services</a>
+    <a href="contactuproar.html">Contact</a>
+    <a href="SoMeuproar.html">SoMe</a>
+</nav>
+
+<div class="container">
+
+    <h1>Contact Us</h1>
+    <p>We usually respond within 24 hours.</p>
+
+    <div class="contact-grid">
+
+        <div class="info">
+            <h2>Contact Details</h2>
+            <p><strong>Email:</strong> contact@uproarai.com</p>
+            <p><strong>Phone:</strong> +47 99 99 99 99</p>
+            <p><strong>Location:</strong> Oslo, Norway</p>
+        </div>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+    </div>
+
+</div>
+<footer class="logo-footer">
+    <img src="ailogo.png.png" alt="Logo 1">
+    <img src="image.png" alt="Logo 2">
+</footer>
+</body>
+</html>
